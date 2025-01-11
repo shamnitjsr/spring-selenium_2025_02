@@ -1,12 +1,14 @@
 package com.udemy.spring.springselenium.bdd;
 
+import org.openqa.selenium.WebDriver;
+import org.springframework.context.ApplicationContext;
+
 import com.udemy.spring.springselenium.kelvin.annotation.LazyAutowired;
 import com.udemy.spring.springselenium.kelvin.service.ScreenshotService;
+
 import io.cucumber.java.After;
 import io.cucumber.java.AfterStep;
 import io.cucumber.java.Scenario;
-import org.openqa.selenium.WebDriver;
-import org.springframework.context.ApplicationContext;
 
 public class CucumberHooks {
 
